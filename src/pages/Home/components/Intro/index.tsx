@@ -4,7 +4,7 @@ import introImage from '../../../../assets/intro-image.png'
 import { IconWithInfo } from '../../../../components/IconWithInfo'
 import { HeroContainer, HeroTextContainer, ItensContainer } from './styles'
 
-export function IntroContainer() {
+export function Intro() {
   const theme = useTheme()
   return (
     <HeroContainer>
